@@ -14,190 +14,112 @@
  Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
 Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
   -->
-    <h1 id="inicio">Primeiros passos com HTML</h1>
-    <hr />
-    <h2>Índice</h2>
+     <h1 id="inicio">Primeiros passos com HTML</h1>
+  <hr />
+  <h2><i>Índice</i></h2>
+  <ul>
+    <li><a href="#history">História da Web</a></li>
+    <li><a href="#clients">O que são Clients?</a></li>
+    <li><a href="#servers">O que são Servers?</a></li>
+    <li><a href="#programming-language">Linguagens de programação</a></li>
+    <li><a href="#tools">Ferramentas utilizadas no curso</a></li>
+    <li><a href="#structure">Estrutura básica HTML</a></li>
+    <li><a href="#reference">Referências</a></li>
+  </ul>
+
+  <h2 id="history">História da Web</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <p>
+    A trajetória da web começa como uma semente plantada em 1989 por <strong>Tim Berners-Lee</strong>, quando ele criou o conceito de <i>"World Wide Web"</i>. Com o protocolo HTTP e a linguagem HTML, a web rapidamente cresceu, estabelecendo-se como um fenômeno global na década de 1990, impulsionado pelo surgimento de navegadores mais amigáveis, como o <i>"Mosaic"</i>. Essa expansão trouxe consigo o nascimento de empresas revolucionárias, como o Google, e permitiu que o comércio eletrônico florescesse. A era da <i>"Web 2.0"</i> trouxe interatividade e colaboração sem precedentes, com redes sociais e plataformas de compartilhamento de conteúdo emergindo como forças motrizes. Na década de 2020, a web continua sua evolução, incorporando novas tecnologias, como realidade aumentada e blockchain, apresentando um futuro repleto de possibilidades infinitas para a sociedade digital.
+  </p>
+
+  <h2 id="clients">O que são Clients?</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <p>
+    Os <strong>clientes web</strong> são componentes fundamentais da arquitetura cliente-servidor na internet. Eles representam a interface pela qual os usuários interagem com os recursos e serviços disponibilizados pelos servidores web. Um cliente web pode ser um navegador tradicional em um computador ou dispositivo móvel, um aplicativo específico ou até mesmo um dispositivo de Internet das Coisas (IoT). Quando os usuários digitam um URL em um navegador ou solicitam informações de um aplicativo, o cliente web envia uma solicitação ao servidor web relevante. Em resposta, o servidor envia os dados ou recursos solicitados de volta ao cliente, responsável por processá-los e apresentá-los de forma amigável ao usuário. Essa comunicação cliente-servidor é essencial para a dinâmica da web, permitindo que os usuários naveguem na internet, acessem conteúdo, realizem transações online e desfrutem de uma ampla gama de serviços que a rede mundial oferece. Em suma, os clientes web são o ponto de partida para a interação dos usuários com o mundo digital, conectando-os aos servidores que fornecem os recursos e informações desejados.
+  </p>
+
+  <h2 id="servers">O que são Servers?</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <p>
+    <strong>Servidores</strong> são elementos fundamentais na infraestrutura da internet, atuando como computadores especializados em armazenar, processar e fornecer informações e serviços para os clientes web. Eles podem ser divididos em vários tipos, como servidores web, que hospedam sites e aplicativos online; servidores de e-mail, responsáveis pelo gerenciamento e entrega de e-mails; servidores de banco de dados, que armazenam e gerenciam dados; servidores de arquivos, compartilhando recursos entre computadores em uma rede, entre outros. No contexto do software, um servidor refere-se a programas projetados para lidar com solicitações dos clientes, como Apache e Nginx para servidores web. Em relação ao hardware, os servidores são máquinas poderosas com configurações otimizadas para desempenho e confiabilidade, geralmente sem interface gráfica e acessados remotamente. Eles são hospedados em data centers, que oferecem condições ideais para garantir alta disponibilidade, velocidade e segurança. Os servidores desempenham um papel vital ao permitir a disseminação de informações e a execução de serviços online, impulsionando a dinâmica da internet e permitindo que a sociedade global se conecte e colabore de forma eficiente e eficaz.
+  </p>
+
+  <h2 id="programming-language">Linguagens de programação</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <p>
+    As <strong>linguagens de programação web</strong> são as bases essenciais para a criação de sites e aplicativos interativos na internet. Elas desempenham um papel fundamental no desenvolvimento de soluções modernas e dinâmicas que impulsionam a web para o futuro. <br />
+
+    No lado do servidor, essas linguagens são usadas para processar dados, realizar cálculos complexos e interagir com bancos de dados antes de enviar as informações finais para os navegadores dos usuários. Exemplos de linguagens server side incluem PHP, Python, Ruby e Node.js. Cada uma dessas linguagens possui suas vantagens e é frequentemente utilizada em conjunto com frameworks poderosos que simplificam o desenvolvimento web. <br /><br />
+
+    Já no lado do cliente, linguagens de programação são interpretadas diretamente pelos navegadores dos usuários e são responsáveis por interações em tempo real, validação de formulários e manipulação do conteúdo exibido na página. A linguagem client side mais proeminente é o JavaScript, que possibilita a criação de interfaces interativas e dinâmicas. <br /><br />
+
+    Embora o HTML e o CSS não sejam considerados linguagens de programação no sentido tradicional, são cruciais para a estruturação, formatação e estilo dos elementos na página. O HTML é usado para organizar o conteúdo, enquanto o CSS é responsável pelo layout e design visual. <br /><br />
+
+    Além disso, algumas linguagens podem ser utilizadas em ambos os lados, como o <u>JavaScript</u>, que possibilita a construção de aplicações de página inteira, chamadas Single Page Applications (SPAs), tornando a experiência do usuário mais fluída e interativa.
+  </p>
+
+  <h2 id="tools">Ferramentas utilizadas no curso</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <h3>VS Code</h3>
+  <p>
+    Em nosso curso utilizamos o <strong>VS Code</strong>. Ele é um editor de código bastante popular, ideal para desenvolvimento web. Com suporte multiplataformas e código aberto, oferece uma experiência de codificação eficiente e personalizável. Seu ambiente amigável, extensões úteis e integração com Git tornam-no uma escolha preferida por muitos desenvolvedores. Você pode fazer o download do VS Code gratuitamente <a href="https://code.visualstudio.com/" target="_blank">aqui</a>.
+  </p>
+  <img src="vs_code.png" width="50%" alt="print-vs-code-website" />
+
+  <h3>Google Chrome</h3>
+  <p>
+    O <strong>Google Chrome</strong> é uma ferramenta essencial para o desenvolvimento web, oferecendo uma experiência completa com seu modo desenvolvedor integrado. Com recursos de inspeção, depuração e otimização de código, o modo desenvolvedor permite aos programadores analisar e aprimorar suas páginas web em tempo real. Além disso, com a capacidade de testar responsividade e simular dispositivos móveis, o Google Chrome é uma escolha confiável para criar sites e aplicativos modernos e otimizados para diferentes plataformas. Você pode fazer o download do Google Chrome gratuitamente <a href="https://www.google.pt/intl/pt-PT/chrome/" target="_blank">aqui</a>.
+  </p>
+  <img src="chrome.png" width="50%" alt="print-google-chrome-website" />
+
+  <h2 id="structure">Estrutura básica HTML</h2>
+  <small><a href="#inicio">(voltar)</a></small>
+
+  <p>
     <ul>
-      <li><a href="#history">História da Web</a></li>
-      <li><a href="#clients">O que são Clients?</a></li>
-      <li><a href="#servers">O que são Servers?</a></li>
-      <li><a href="#programming-language">Linguagens de programação</a></li>
-      <li><a href="#tools">Ferramentas utilizadas no curso</a></li>
-      <li><a href="#structure">Estrutura básica HTML</a></li>
-      <li><a href="#reference">Referencias</a></li>
+      <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declaração do tipo de documento, indicando que o arquivo é um documento HTML5.</li>
+      <li><strong>&lt;html&gt;</strong>: Elemento raiz que envolve todo o conteúdo da página.</li>
+      <li><strong>&lt;head&gt;</strong>: Cabeçalho do documento que contém informações sobre a página, como título, metadados e links para scripts e folhas de estilo.</li>
+      <li><strong>&lt;title&gt;</strong>: Define o título da página, exibido na barra de título do navegador ou na aba.</li>
+      <li><strong>&lt;body&gt;</strong>: Corpo da página que contém todo o conteúdo visível, como texto, imagens, vídeos, links, entre outros.</li>
     </ul>
 
-    <h2 id="history">História da Web</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    <p>
-      A trajetória da web começa como uma semente plantada em 1989 por Tim
-      Berners-Lee, quando ele criou o conceito de "World Wide Web". Com o
-      protocolo HTTP e a linguagem HTML, a web rapidamente cresceu,
-      estabelecendo-se como um fenômeno global na década de 1990, impulsionado
-      pelo surgimento de navegadores mais amigáveis, como o "Mosaic". Essa
-      expansão trouxe consigo o nascimento de empresas revolucionárias, como o
-      Google, e permitiu que o comércio eletrônico florescesse. A era da "Web
-      2.0" trouxe interatividade e colaboração sem precedentes, com redes
-      sociais e plataformas de compartilhamento de conteúdo emergindo como
-      forças motrizes. Na década de 2020, a web continua sua evolução,
-      incorporando novas tecnologias, como realidade aumentada e blockchain,
-      apresentando um futuro repleto de possibilidades infinitas para a
-      sociedade digital.
-    </p>
+    <img src="html.png" alt="html-basic-code">
 
-    <h2 id="clients">Oque são Clients?</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    <p>
-      Os clientes web são componentes fundamentais da arquitetura
-      cliente-servidor na internet. Eles representam a interface pela qual os
-      usuários interagem com os recursos e serviços disponibilizados pelos
-      servidores web. Um cliente web pode ser um navegador tradicional em um
-      computador ou dispositivo móvel, um aplicativo específico ou até mesmo um
-      dispositivo de Internet das Coisas (IoT). Quando os usuários digitam um
-      URL em um navegador ou solicitam informações de um aplicativo, o cliente
-      web envia uma solicitação ao servidor web relevante. Em resposta, o
-      servidor envia os dados ou recursos solicitados de volta ao cliente, responsável por processá-los e apresentá-los de forma amigável ao usuário.
-      Essa comunicação cliente-servidor é essencial para a dinâmica da web,
-      permitindo que os usuários naveguem na internet, acessem conteúdo,
-      realizem transações online e desfrutem de uma ampla gama de serviços que a
-      rede mundial oferece. Em suma, os clientes web são o ponto de partida para
-      a interação dos usuários com o mundo digital, conectando-os aos servidores
-      que fornecem os recursos e informações desejados.
-    </p>
-
-    <h2 id="servers">Oque são Servers?</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    <p>
-      Servidores são elementos fundamentais na infraestrutura da internet,
-      atuando como computadores especializados em armazenar, processar e
-      fornecer informações e serviços para os clientes web. Eles podem ser
-      divididos em vários tipos, como servidores web, que hospedam sites e
-      aplicativos online; servidores de e-mail, responsáveis pelo gerenciamento
-      e entrega de e-mails; servidores de banco de dados, que armazenam e
-      gerenciam dados; servidores de arquivos, compartilhando recursos entre
-      computadores em uma rede, entre outros. No contexto do software, um
-      servidor refere-se a programas projetados para lidar com solicitações dos
-      clientes, como Apache e Nginx para servidores web. Em relação ao hardware,
-      os servidores são máquinas poderosas com configurações otimizadas para
-      desempenho e confiabilidade, geralmente sem interface gráfica e acessados
-      remotamente. Eles são hospedados em data centers, que oferecem condições
-      ideais para garantir alta disponibilidade, velocidade e segurança. Os
-      servidores desempenham um papel vital ao permitir a disseminação de
-      informações e a execução de serviços online, impulsionando a dinâmica da
-      internet e permitindo que a sociedade global se conecte e colabore de
-      forma eficiente e eficaz.
-    </p>
-
-    <h2 id="programming-language">Linguagens de programação</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    <p>
-      As linguagens de programação web são as bases essenciais para a criação de
-      sites e aplicativos interativos na internet. Elas desempenham um papel
-      fundamental no desenvolvimento de soluções modernas e dinâmicas que
-      impulsionam a web para o futuro. <br />
-
-      No lado do servidor, essas linguagens são usadas para processar dados,
-      realizar cálculos complexos e interagir com bancos de dados antes de
-      enviar as informações finais para os navegadores dos usuários. Exemplos de
-      linguagens server side incluem PHP, Python, Ruby e Node.js. Cada uma
-      dessas linguagens possui suas vantagens e é frequentemente utilizada em
-      conjunto com frameworks poderosos que simplificam o desenvolvimento web.
-      <br /><br />
-
-      Já no lado do cliente, linguagens de programação são interpretadas
-      diretamente pelos navegadores dos usuários e são responsáveis por
-      interações em tempo real, validação de formulários e manipulação do
-      conteúdo exibido na página. A linguagem client side mais proeminente é o
-      JavaScript, que possibilita a criação de interfaces interativas e
-      dinâmicas. <br /><br />
-
-      Embora o HTML e o CSS não sejam considerados linguagens de programação no
-      sentido tradicional, são cruciais para a estruturação, formatação e estilo
-      dos elementos na página. O HTML é usado para organizar o conteúdo,
-      enquanto o CSS é responsável pelo layout e design visual. <br /><br />
-
-      Além disso, algumas linguagens podem ser utilizadas em ambos os lados,
-      como o JavaScript, que possibilita a construção de aplicações de página
-      inteira, chamadas Single Page Applications (SPAs), tornando a experiência
-      do usuário mais fluída e interativa.
-    </p>
-
-    <h2 id="tools">Ferramentas utilizadas no curso</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    <h3>VS Code</h3>
-    <p>
-      Em nosso curso utilizamos o VS Code. Ele é um editor de código bastante
-      popular, ideal para desenvolvimento web. Com suporte multiplataformas e
-      código aberto, oferece uma experiência de codificação eficiente e
-      personalizável. Seu ambiente amigável, extensões úteis e integração com
-      Git tornam-no uma escolha preferida por muitos desenvolvedores. Você pode
-      fazer o download do VS Code gratuitamente
-      <a href="https://code.visualstudio.com/" target="_blank">aqui</a>.
-    </p>
-    <img src="vs_code.png" width="50%" alt="print-vs-code-website" />
-
-    <h3>Google Chrome</h3>
-    <p>
-      O Google Chrome é uma ferramenta essencial para o desenvolvimento web,
-      oferecendo uma experiência completa com seu modo desenvolvedor integrado.
-      Com recursos de inspeção, depuração e otimização de código, o modo
-      desenvolvedor permite aos programadores analisar e aprimorar suas páginas
-      web em tempo real. Além disso, com a capacidade de testar responsividade e
-      simular dispositivos móveis, o Google Chrome é uma escolha confiável para
-      criar sites e aplicativos modernos e otimizados para diferentes
-      plataformas. Você pode fazer o download do Google Chrome gratuitamente
-      <a href="https://www.google.pt/intl/pt-PT/chrome/" target="_blank">aqui</a
-      >.
-    </p>
-    <img src="chrome.png" width="50%" alt="print-google-chrome-website" />
-
-    <h2 id="structure">Estrutura basica HTML</h2>
-    <small><a href="#inicio">(voltar)</a></small>
-    
-    <p>
-      <ul>
-        <li>&lt;!DOCTYPE html&gt;: Declaração do tipo de documento, indicando que o arquivo é um documento HTML5.</li>
-        <li>&lt;html&gt;: Elemento raiz que envolve todo o conteúdo da página.</li>
-        <li>&lt;head&gt;: Cabeçalho do documento que contém informações sobre a página, como título, metadados e links para scripts e folhas de estilo.</li>
-        <li>&lt;title&gt;: Define o título da página, exibido na barra de título do navegador ou na aba.</li>
-        <li>&lt;body&gt;: Corpo da página que contém todo o conteúdo visível, como texto, imagens, vídeos, links, entre outros.</li>
-      </ul>
-
-      <img src="html.png" alt="html-basic-code">
-
+    <blockquote>
       <p>Temos também estes outros tipos de tags:</p>
-      <ul>
-        <li>&lt;h1&gt; até &lt;h6&gt;: Elas são usadas para marcar cabeçalhos, títulos de seções, ou destacar informações, com diferentes níveis de importância, sendo h1 mais importante, e h6 menos importante. </li>
-        <li>&lt;p&gt;: Ela é utilizada para agrupar e formatar blocos de texto que formam um parágrafo, adicionando espaçamentos antes e depois do conteúdo.</li>
-        <li>&lt;strong&gt;: Define o texto em negrito, indicando maior ênfase ou importância.</li>
-        <li>&lt;u&gt;: Sublinha o texto, geralmente usado para indicar links não visitados.</li>
-        <li>&lt;i&gt;Aplica estilo de itálico ao texto, usado para enfatizar palavras ou frases.</li>
-        <li>&lt;sub&gt;: Exibe o texto em formato de subscrito, posicionado abaixo da linha de base.</li>
-        <li>&lt;sup&gt;: Exibe o texto em formato de superescrito, posicionado acima da linha de base.</li>
-        <li>&lt;small&gt;: Define texto em tamanho menor, geralmente utilizado para notas de rodapé ou informações secundárias.</li>
-        <li>&lt;mark&gt;: Destaca o texto com uma cor de fundo para chamar a atenção do leitor.</li>
-        <li>&lt;ol&gt;: Cria uma lista ordenada, exibindo itens numerados em sequência.</li>
-        <li>&lt;ul&gt;: Cria uma lista não ordenada, exibindo itens com marcadores (bolinhas ou outros símbolos).</li>
-        <li>&lt;li&gt;: Define um item de lista, seja em uma lista ordenada ou não ordenada.</li>
-        <li>&lt;a&gt;Cria um hiperlink, permitindo que os usuários cliquem para acessar outra página, alguma seção da própria pagina, ou recurso.</li>
-        <li>&lt;hr&gt;: Insere uma linha horizontal para separar seções de conteúdo.</li>
-        <li>&lt;blockquote&gt;: Indica um bloco de citação ou trecho destacado do texto principal.</li>
-        <li>&lt;abbr&gt;: Define uma abreviação ou acrônimo, permitindo que os navegadores exibam a forma completa quando o usuário passa o mouse sobre o texto.</li>
-        <li>&lt;del&gt;: Representa texto deletado, exibindo-o com uma linha horizontal através dele.</li>
-        <li>&lt;font&gt;: Uma tag descontinuada que costumava definir a fonte, tamanho e cor do texto (não recomendado, use CSS em vez disso).</li>
-      </ul>
-      </p>
+    </blockquote>
+    <ul>
+      <li><strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong>: Elas são usadas para marcar cabeçalhos, títulos de seções, ou destacar informações, com diferentes níveis de importância, sendo h1 mais importante, e h6 menos importante.</li>
+      <li><strong>&lt;p&gt;</strong>: Ela é utilizada para agrupar e formatar blocos de texto que formam um parágrafo, adicionando espaçamentos antes e depois do conteúdo.</li>
+      <li><strong>&lt;strong&gt;</strong>: Define o texto em negrito, indicando maior ênfase ou importância.</li>
+      <li><strong>&lt;u&gt;</strong>: Sublinha o texto, geralmente usado para indicar links não visitados.</li>
+      <li><strong>&lt;i&gt;</strong>: Aplica estilo de itálico ao texto, usado para enfatizar palavras ou frases.</li>
+      <li><strong>&lt;sub&gt;</strong>: Exibe o texto em formato de subscrito, posicionado abaixo da linha de base.</li>
+      <li><strong>&lt;sup&gt;</strong>: Exibe o texto em formato de superescrito, posicionado acima da linha de base.</li>
+      <li><strong>&lt;small&gt;</strong>: Define texto em tamanho menor, geralmente utilizado para notas de rodapé ou informações secundárias.</li>
+      <li><strong>&lt;mark&gt;</strong>: <mark>Destaca o texto com uma cor de fundo para chamar a atenção do leitor.</mark></li>
+      <li><strong>&lt;ol&gt;</strong>: Cria uma lista ordenada, exibindo itens numerados em sequência.</li>
+      <li><strong>&lt;ul&gt;</strong>: Cria uma lista não ordenada, exibindo itens com marcadores (bolinhas ou outros símbolos).</li>
+      <li><strong>&lt;li&gt;</strong>: Define um item de lista, seja em uma lista ordenada ou não ordenada.</li>
+      <li><strong>&lt;a&gt;</strong>: Cria um hiperlink, permitindo que os usuários cliquem para acessar outra página, alguma seção da própria pagina, ou recurso.</li>
+      <li><strong>&lt;hr&gt;</strong>: Insere uma linha horizontal para separar seções de conteúdo.</li>
+      <li><strong>&lt;blockquote&gt;</strong>: Indica um bloco de citação ou trecho destacado do texto principal.</li>
+      <li><strong>&lt;abbr&gt;</strong>: <abbr title="Define uma abreviação ou acrônimo, permitindo que os navegadores exibam a forma completa quando o usuário passa o mouse sobre o texto.">Passe o mouse para ver oque ess tag faz</abbr></li>
+      <li><strong>&lt;del&gt;</strong>: Representa texto deletado, exibindo-o com uma linha horizontal através dele.</li>
+      <li>&lt;font&gt;: <del>Uma tag descontinuada que costumava definir a fonte, tamanho e cor do texto (não recomendado, use CSS em vez disso).</del></li>
+    </ul>
+  </p>
 
-      <h2 id="reference">Referencias</h2>
-      <small><a href="#inicio">(voltar)</a></small>
-      <p>Para ampliar se conhecimento, visite as paginas a seguir:
-        <br><br>
-        HTML <br> <a href="https://www.w3schools.com/html/">w3schools</a><br>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</a><br>
-        <a href="https://www.todamateria.com.br/historia-da-internet/">História da web</a><br>
-        <a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/">client-side-vs-server-side</a>
-      </p>
-
-
-  </body>
+  <h2 id="reference"><u>Referências</u></h2>
+  <small><a href="#inicio">(voltar)</a></small>
+  <p>Para ampliar seu conhecimento, visite as páginas a seguir:
+    <br><br>
+    <a href="https://www.w3schools.com/html/" target="_blank">w3schools</a><br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla Developer Network</a><br>
+    <a href="https://www.todamateria.com.br/historia-da-internet/" target="_blank">História da web</a><br>
+    <a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">client-side-vs-server-side</a>
+  </p>
+</body>
 </html>
